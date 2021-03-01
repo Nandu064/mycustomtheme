@@ -7,13 +7,12 @@ body{
 }
 a, a:active, a:hover, a:visited{
   text-decoration: none;
-  /* color: #000; */
 }
 ul, ol{
   list-style-type: none;
 }
 header{
-  background: #13171c;
+    background-color: rgba(248, 239, 152, 0.404);
 }
 .content{
   position: relative;
@@ -26,7 +25,7 @@ header{
   position: relative;
   height: 150px;
   width: 100%;
-  background-color: #13171c;
+  background-color: darkgrey;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -60,14 +59,14 @@ header{
   text-align: center;
   font-size: 20px;
   text-decoration: none;
-  color: #000;
+  color: black;
   background-color: #E6DADA;
   border: 2px solid #E6DADA;
   transition: 500ms;
 }
 
 #block-mycustomtheme-main-menu ul li:hover{
-  color: #E6DADA;
+  color: white;
   background-color: #13171c;
 
 }
