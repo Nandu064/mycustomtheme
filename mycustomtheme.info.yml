@@ -1,0 +1,14 @@
+name: My Custom Theme
+description: 'This is the basic custom theme'
+type: theme
+version: VERSION
+core: 8.x
+package: Custom
+libraries:
+  - mycustomtheme/global-styling
+regions:
+  header: Header
+  menu: Main Menu
+  content: Content
+  sidebar: Sidebar
+  footer: Footer
